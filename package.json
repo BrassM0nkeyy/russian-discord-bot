@@ -9,6 +9,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.5.0"
+    "common-tags": "^1.8.0",
+    "discord.js": "^11.5.0",
+    "discord.js-commando": "^0.10.0",
+    "escape-string-regexp": "^2.0.0",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-binaries": "^4.0.0",
+    "opusscript": "0.0.6",
+    "require-all": "^3.0.0"
   }
 }
