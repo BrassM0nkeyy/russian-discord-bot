@@ -15,7 +15,7 @@ bot.on('voiceStateUpdate', (oldMember, newMember) => {
         console.log(newUserChannel.name);
         newUserChannel.join()
             .then( connect => {
-                const dispach = connect.playFile('./ear_rape.mp3');
+                const dispach = connect.playFile('./ear_blast.mp3');
             });
     }
 
@@ -24,7 +24,7 @@ bot.on('voiceStateUpdate', (oldMember, newMember) => {
         console.log('gulag2');
         newUserChannel.join()
             .then( connect => {
-                const dispach = connect.playFile('./ear_rape.mp3');
+                const dispach = connect.playFile('./ear_blast.mp3');
             });
         //playingMusic = ture;
     }
